@@ -12,10 +12,11 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tele Asessment</title>
-    <link rel="icon" href="img/logo/ta.png" type="image/x-icon">
+    <link rel="icon" href="../img/logo/ta.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/review.css">
 </head>
 <body>
 
@@ -32,15 +33,15 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
             </div>
             <div class="logo d-flex mt-2">
                 <a href="https://maxy.academy/" target="_blank">
-                    <img src="img/logo/maxy_putih.png" alt="" class="sidebar-logo-img">
+                    <img src="../img/logo/maxy_putih.png" alt="" class="sidebar-logo-img">
                 </a>
                 <a href="https://www.ubaya.ac.id/" target="_black">
-                    <img src="img/logo/logo-ubaya.png" alt="" class="sidebar-logo-img2">
+                    <img src="../img/logo/logo-ubaya.png" alt="" class="sidebar-logo-img2">
                 </a>
             </div>
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
+                    <a href="../index.php" class="sidebar-link">
                         <i class="lni lni-agenda"></i>
                         <span>Dashboard</span>
                     </a>
@@ -177,7 +178,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
 
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-icon pe-md-0" data-bs-toggle="dropdown">
-                                <img src="img/avatar.png" class="avatar img-fluid" alt="avatar">
+                                <img src="../img/avatar.png" class="avatar img-fluid" alt="avatar">
                             </a>
                             <div class="dropdown-menu dropdown-menu-end rounded mt-4">
                                 <a href="#" class="dropdown-item">
@@ -204,107 +205,66 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
             <main class="content px-3 py-4">
                 <div class="container-fluid">
                     <div class="mb-3">
-                        <div class="row g-sm-5">
-                            <div class="col-12 col-md-4">
-                                <div class="card border-0">
-                                    <div class="card-body p-5 d-flex flex-column">
-                                        <img src="img/group.png" alt="" class="mb-2">
-                                        <h5 class="fw-bold">Jumlah Peserta</h5>
-                                        <h2 class="mb-4">400</h2>
-                                        <div class="mb-0">
-                                            <span class="fw-lighter">
-                                                Bulan April
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="card border-0">
-                                    <div class="card-body py-4 d-flex flex-column">
-                                        <h5 class="fw-bold">Waktu Interview</h5>
-                                        <p class="mb-2 fw-lighter">
-                                            Rata-Rata
-                                        </p>
-                                        <canvas id="myChart"></canvas>
-                                        <div class="time-info d-flex mt-2">
-                                            <span class="aa fw-bold">25 Menit</span>
-                                            <span class="bb fw-bold">30 Menit</span>
-                                            <span class="cc fw-bold">45 Menit</span>
-                                        </div>
-                                        <div class="time-info d-flex mt-2 justify-content-center">
-                                            <span class="dd fw-bold">50 Menit</span>
-                                            <span class="ee fw-bold">60 Menit</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="card border-0">
-                                    <div class="card-body py-4 d-flex flex-column">
-                                        <h5 class="fw-bold">Skor Interview</h5>
-                                        <p class="mb-2 fw-lighter">
-                                            Rata-Rata
-                                        </p>
-                                        <canvas id="ourchart"></canvas>
-                                        <div class="time-info d-flex mt-2">
-                                            <span class="aa fw-bold">95</span>
-                                            <span class="bb fw-bold">90</span>
-                                            <span class="cc fw-bold">85</span>
-                                        </div>
-                                        <div class="time-info d-flex mt-2">
-                                            <span class="dd fw-bold">80</span>
-                                            <span class="ee fw-bold">75</span>
-                                            <span class="ff fw-bold">70</span>
-                                        </div>
-                                    </div>
+                        <h3 class="fw-bold">Review</h3>
+                        <div class="rev mt-4">
+                            <div class="revbox d-flex">
+                                <img src="../img/avatar.png" class="avatar img-fluid" alt="avatar"> 
+                                <div class="d-flex flex-column">
+                                    <h5 class="fw-bold">Afrialdy</h5>
+                                    <p>Situs ini menyediakan platform yang luar biasa untuk merekrut talenta AI. Antarmuka yang sederhana dan efisien membuat pencarian menjadi mudah. Saya berhasil merekrut seorang ahli AI yang sangat berkualitas dalam waktu singkat. Pengalaman saya menggunakan situs ini sangat memuaskan, dan saya akan merekomendasikannya kepada rekan-rekan yang mencari kandidat AI yang kompeten</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Grafik Peserta -->
-                        <div class="graphBox mt-4">
-                            <div class="box d-flex flex-column">
-                                <h5 class="fw-bold mb-4">Grafik Peserta Perbulan</h5>
-                                <canvas id="lineChart"></canvas>
+                        <div class="rev mt-4">
+                            <div class="revbox d-flex">
+                                <img src="../img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar"> 
+                                <div class="d-flex flex-column">
+                                    <h5 class="fw-bold">Adu du</h5>
+                                    <p>Situs ini menyediakan beragam pilihan bagi rekrutmen AI. Antarmuka yang intuitif dan fitur pencarian yang canggih membuatnya sangat efisien. Saya menemukan kandidat AI yang sesuai dengan kebutuhan perusahaan saya dalam waktu singkat. Saya sangat puas dengan hasilnya dan akan menggunakan situs ini lagi di masa depan</p>
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Review -->
-                        <div class="revBox mt-4">
-                            <div class="rBox d-flex flex-column">
-                                <h5 class="fw-bold mb-4 text-center">Review Terbaru</h5>
-                                <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quaerat iste dicta optio, quae rerum aspernatur nam ex laudantium perspiciatis?</p>
+                        <div class="rev mt-4">
+                            <div class="revbox d-flex">
+                                <img src="../img/profil-review/probe.jpeg" class="avatar img-fluid" alt="avatar"> 
+                                <div class="d-flex flex-column">
+                                    <h5 class="fw-bold">Probe</h5>
+                                    <p>Pengalaman saya menggunakan situs ini sangat memuaskan. Proses pendaftaran yang cepat dan sistem pencocokan yang akurat membantu saya menemukan kandidat AI yang berkualitas. Saya merekomendasikan situs ini kepada semua perusahaan yang mencari talenta AI. Saya berhasil merekrut ahli AI yang sangat berkualitas untuk tim kami. Terima kasih!</p>
                                 </div>
-
-                                <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/probe.jpeg" class="avatar img-fluid" alt="avatar">                                                                                
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quaerat iste dicta optio, quae rerum aspernatur nam ex laudantium perspiciatis?</p>
-                                </div>
-
-                                <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/tok-abah.jpeg" class="avatar img-fluid" alt="avatar">                                                                                
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quaerat iste dicta optio, quae rerum aspernatur nam ex laudantium perspiciatis?</p>
-                                </div>
-
-                                <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/cikgu.jpg" class="avatar img-fluid" alt="avatar">                                                                                
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quaerat iste dicta optio, quae rerum aspernatur nam ex laudantium perspiciatis?</p>
-                                </div>
-
-                                <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/upin.jpeg" class="avatar img-fluid" alt="avatar">                                                                                
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quaerat iste dicta optio, quae rerum aspernatur nam ex laudantium perspiciatis?</p>
-                                </div>
-
-                                <a href="page/review.php" class="text-center">
-                                    <button type="button" class="btn btn-primary">Show Details</button>
-                                </a>
                             </div>
                         </div>
 
+                        <div class="rev mt-4">
+                            <div class="revbox d-flex">
+                                <img src="../img/profil-review/tok-abah.jpeg" class="avatar img-fluid" alt="avatar"> 
+                                <div class="d-flex flex-column">
+                                    <h5 class="fw-bold">Tok Abah</h5>
+                                    <p>Situs web rekrutmen AI ini luar biasa. Fitur pencarian yang canggih dan database yang kaya membuatnya menjadi sumber daya yang berharga. Saya berhasil merekrut ahli AI yang sangat berkualitas untuk tim kami. Terima kasih atas layanan yang luar biasa!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rev mt-4">
+                            <div class="revbox d-flex">
+                                <img src="../img/profil-review/upin.jpeg" class="avatar img-fluid" alt="avatar"> 
+                                <div class="d-flex flex-column">
+                                    <h5 class="fw-bold">Upin</h5>
+                                    <p>Situs web ini benar-benar membantu dalam mencari talenta AI yang tepat. Proses pendaftaran yang mudah dan informasi yang komprehensif tentang setiap kandidat membuatnya menjadi pilihan utama saya dalam rekrutmen AI. Saya sangat puas dengan hasilnya dan akan merekomendasikannya kepada rekan-rekan saya.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rev mt-4">
+                            <div class="revbox d-flex">
+                                <img src="../img/profil-review/cikgu.jpg" class="avatar img-fluid" alt="avatar"> 
+                                <div class="d-flex flex-column">
+                                    <h5 class="fw-bold">Cikgu Besar</h5>
+                                    <p>Saya sangat terkesan dengan situs rekrutmen AI ini. Antarmuka yang ramah pengguna dan fitur pencarian yang canggih membuatnya sangat mudah digunakan. Saya berhasil merekrut ahli AI yang berkualitas untuk tim kami. Sangat merekomendasikan! Terima kasih atas pengalaman yang luar biasa!</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
@@ -338,9 +298,10 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="js/dashboard.js"></script>
+    <script src="../js/dashboard.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="js/my_chart.js"></script>
+    <script src="../js/my_chart.js"></script>
+
     
 </body>
 </html>
