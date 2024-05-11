@@ -72,12 +72,18 @@ body {
 .sidebar-logo-img {
     width: 110px;
     max-height: auto;
+}
+
+.sidebar-logo-img1 {
+    width: 90px;
+    max-height: auto;
     margin-right: 20px;
 }
 
 .sidebar-logo-img2 {
-    width: 70px;
+    width: 50px;
     min-height: auto;
+    margin-top: 10px;
 }
 
 .sidebar-logo {
@@ -93,13 +99,15 @@ body {
 #sidebar:not(.expand) .sidebar-logo,
 #sidebar:not(.expand) a.sidebar-link span,
 #sidebar:not(.expand) .sidebar-logo-img,
+#sidebar:not(.expand) .sidebar-logo-img1,
 #sidebar:not(.expand) .sidebar-logo-img2 {
     display: none;
 }
 
-#sidebar.expand .sidebar-logo,
+#sidebar.expand .logo,
 #sidebar.expand a.sidebar-link span {
     animation: fadeIn .25s ease;
+    -webkit-animation: fadeIn .25s ease;
 }
 
 @keyframes fadeIn {
@@ -428,5 +436,9 @@ a.sidebar-link:hover {
 
     .main .navbar h2 {
         display: none;
+    }
+
+    .sidebar-logo-img1 {
+        margin-left: 45px;
     }
 }

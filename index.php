@@ -26,16 +26,18 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                 <button id="toggle-btn" type="button">
                     <i class="lni lni-grid-alt"></i>
                 </button>
-                <div class="sidebar-logo">
-                    <a href="#">Tele Asessment</a>
-                </div>
-            </div>
-            <div class="logo d-flex mt-2">
+                <div class="logo d-flex">
                 <a href="https://maxy.academy/" target="_blank">
-                    <img src="img/logo/maxy_putih.png" alt="" class="sidebar-logo-img">
+                    <img src="img/logo/maxy_putih.png" alt="" class="sidebar-logo-img1">
                 </a>
                 <a href="https://www.ubaya.ac.id/" target="_black">
                     <img src="img/logo/logo-ubaya.png" alt="" class="sidebar-logo-img2">
+                </a>
+                </div>
+            </div>
+            <div class="logo mt-2">
+                <a href="https://maxy.academy/" target="_blank">
+                    <img src="img/logo/ta1.png" alt="" class="sidebar-logo-img">
                 </a>
             </div>
             <ul class="sidebar-nav">
@@ -45,51 +47,25 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                         <span>Dashboard</span>
                     </a>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link has-dropdown collapsed" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                    <a href="page/data-kandidat.php" class="sidebar-link">
                         <i class="lni lni-protection"></i>
                         <span>Data Kandidat</span>
                     </a>
-                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Link 1</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Link 2</a>
-                        </li>
-                    </ul>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link has-dropdown collapsed" data-bs-toggle="collapse" data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
-                        <i class="lni lni-layout"></i>
-                        <span>Data Asessment</span>
-                    </a>
-                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
-                                Two Link
-                            </a> 
-                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 1</a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-popup"></i>
-                        <span>Laporan Asessment</span>
+                    <a href="page/asessment.php" class="sidebar-link">
+                        <i class="lni lni-remove-file"></i>
+                        <span>Asessment</span>
                     </a>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-popup"></i>
-                        <span>Form</span>
+                    <a href="page/laporan-asessment.php" class="sidebar-link">
+                        <i class="lni lni-clipboard"></i>
+                        <span>Laporan</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -99,9 +75,9 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                     </a>
                 </li>
 
-                <div class="three-item">
+                <!-- <div class="three-item"> -->
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
+                        <a href="page/profil.php" class="sidebar-link">
                             <i class="lni lni-user"></i>
                             <span>Profile</span>
                         </a>
@@ -118,7 +94,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                             <span>Keluar</span>
                         </a>
                     </li>
-                </div>
+                <!-- </div> -->
             </ul>
             <!-- <div class="sidebar-footer">
                 <a href="#" class="sidebar-link">
@@ -318,7 +294,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                 <strong>Tele Asessment</strong>
                             </a>
                         </div>
-                        <div class="col-6 text-end text-body-secondary d-none d-md-block">
+                        <!-- <div class="col-6 text-end text-body-secondary d-none d-md-block">
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item">
                                     <a href="#" class="text-body-secondary">Contact</a>
@@ -330,7 +306,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                     <a href="#" class="text-body-secondary">Term & Conditions</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </footer>
