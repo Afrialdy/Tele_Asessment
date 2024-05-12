@@ -23,7 +23,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
 
     <!-- Sidebar -->
     <div class="wrapper">
-        <aside id="sidebar">
+    <aside id="sidebar">
             <div class="d-flex mt-2">
                 <button id="toggle-btn" type="button">
                     <i class="lni lni-grid-alt"></i>
@@ -51,27 +51,27 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="page/data-kandidat.php" class="sidebar-link">
+                    <a href="data-kandidat.php" class="sidebar-link">
                         <i class="lni lni-protection"></i>
                         <span>Data Kandidat</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="page/data-asessment.php" class="sidebar-link">
+                    <a href="asessment.php" class="sidebar-link">
                         <i class="lni lni-remove-file"></i>
                         <span>Asessment</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="page/laporan-asessment.php" class="sidebar-link">
+                    <a href="laporan-asessment.php" class="sidebar-link">
                         <i class="lni lni-clipboard"></i>
                         <span>Laporan</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
+                    <a href="blog.php" class="sidebar-link">
                         <i class="lni lni-popup"></i>
                         <span>Blog</span>
                     </a>
@@ -79,13 +79,13 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
 
                 <!-- <div class="three-item"> -->
                     <li class="sidebar-item">
-                        <a href="page/profil.php" class="sidebar-link">
+                        <a href="profil.php" class="sidebar-link">
                             <i class="lni lni-user"></i>
                             <span>Profile</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
+                        <a href="setting.php" class="sidebar-link">
                             <i class="lni lni-cog"></i>
                             <span>Pengaturan</span>
                         </a>
@@ -107,11 +107,11 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
 
         <!-- Navbar -->
         <div class="main">
-            <nav class="navbar navbar-expand px-4 py-3">
+        <nav class="navbar navbar-expand px-4 py-3">
                 <div class="navbar-collapse collapse">
                 <h2 class="fw-bold">Hi, <?php echo $_SESSION['fullname']; ?></h2>
                     <ul class="navbar-nav ms-auto align-items-center d-flex">
-                        <form action="#" class="d-none d-sm-inline-block">
+                        <form action="#" class="search">
                             <div class="input-group input-group-navbar">
                                 <input type="text" class="form-control rounded-2" placeholder="Search..">
                                 <button class="btn rounded-2" type="button">
@@ -377,6 +377,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </main>
