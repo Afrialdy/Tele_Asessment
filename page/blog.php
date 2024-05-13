@@ -22,21 +22,23 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
 
     <!-- Sidebar -->
     <div class="wrapper">
-        <aside id="sidebar">
+    <aside id="sidebar">
             <div class="d-flex mt-2">
                 <button id="toggle-btn" type="button">
                     <i class="lni lni-grid-alt"></i>
                 </button>
-                <div class="sidebar-logo">
-                    <a href="#">Tele Asessment</a>
-                </div>
-            </div>
-            <div class="logo d-flex mt-2">
+                <div class="logo d-flex">
                 <a href="https://maxy.academy/" target="_blank">
-                    <img src="../img/logo/maxy_putih.png" alt="" class="sidebar-logo-img">
+                    <img src="../img/logo/maxy_putih.png" alt="" class="sidebar-logo-img1">
                 </a>
                 <a href="https://www.ubaya.ac.id/" target="_black">
                     <img src="../img/logo/logo-ubaya.png" alt="" class="sidebar-logo-img2">
+                </a>
+                </div>
+            </div>
+            <div class="logo mt-2">
+                <a href="https://maxy.academy/" target="_blank">
+                    <img src="../img/logo/ta1.png" alt="" class="sidebar-logo-img">
                 </a>
             </div>
             <ul class="sidebar-nav">
@@ -46,80 +48,54 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                         <span>Dashboard</span>
                     </a>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link has-dropdown collapsed" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                    <a href="data-kandidat.php" class="sidebar-link">
                         <i class="lni lni-protection"></i>
                         <span>Data Kandidat</span>
                     </a>
-                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Link 1</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Link 2</a>
-                        </li>
-                    </ul>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link has-dropdown collapsed" data-bs-toggle="collapse" data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
-                        <i class="lni lni-layout"></i>
-                        <span>Data Asessment</span>
+                    <a href="asessment.php" class="sidebar-link">
+                        <i class="lni lni-remove-file"></i>
+                        <span>Asessment</span>
                     </a>
-                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
-                                Two Link
-                            </a> 
-                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 1</a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-popup"></i>
-                        <span>Laporan Asessment</span>
+                    <a href="laporan-asessment.php" class="sidebar-link">
+                        <i class="lni lni-clipboard"></i>
+                        <span>Laporan</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-popup"></i>
-                        <span>Form</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="blog.html" class="sidebar-link">
+                    <a href="blog.php" class="sidebar-link">
                         <i class="lni lni-popup"></i>
                         <span>Blog</span>
                     </a>
                 </li>
 
-                <div class="three-item">
+                <!-- <div class="three-item"> -->
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
+                        <a href="profil.php" class="sidebar-link">
                             <i class="lni lni-user"></i>
                             <span>Profile</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
+                        <a href="setting.php" class="sidebar-link">
                             <i class="lni lni-cog"></i>
                             <span>Pengaturan</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="auth/login.html" class="sidebar-link">
+                        <a href="../auth/login.html" class="sidebar-link">
                             <i class="lni lni-exit"></i>
                             <span>Keluar</span>
                         </a>
                     </li>
-                </div>
+                <!-- </div> -->
             </ul>
             <!-- <div class="sidebar-footer">
                 <a href="#" class="sidebar-link">
