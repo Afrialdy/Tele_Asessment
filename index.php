@@ -254,7 +254,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                             <div class="q-box d-flex flex-column">
                                 <h5 class="fw-bold mb-4">Pertanyaan Interview</h5>
                                 <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <img src="img/interview test.png" class="avatar img-fluid" alt="avatar">                                                                       
                                     <div class="d-flex flex-column">
                                         <h2>INTERVIEW TEST</h2>
                                         <P>Analisis sentimen wajah & analisis sentimen suara.</P>
