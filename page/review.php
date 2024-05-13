@@ -71,6 +71,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                     </a>
                 </li>
                 <li class="sidebar-item">
+                    <a href="blog.html" class="sidebar-link">
                     <a href="blog.php" class="sidebar-link">
                         <i class="lni lni-popup"></i>
                         <span>Blog</span>
