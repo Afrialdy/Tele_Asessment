@@ -17,7 +17,7 @@ body {
 }
 
 .box .logo {
-    color: #9a55ff;
+    color: #003396;
 }
 
 .box {
@@ -33,7 +33,8 @@ body {
 .btn-login {
     font-weight: 500;
     font-size: 20px;
-    background: linear-gradient(90deg, #da8cff 0%, #9a55ff 100%);
+    /* background: linear-gradient(90deg, #da8cff 0%, #9a55ff 100%); */
+    background: linear-gradient(90deg, #004be0 0%, #003396 100%);
     transition: filter 0.3s ease;
 }
 
@@ -45,7 +46,7 @@ body {
 .btn-signup {
     font-weight: 500;
     font-size: 20px;
-    background: linear-gradient(90deg, #da8cff 0%, #9a55ff 100%);
+    background: linear-gradient(90deg, #004be0 0%, #003396 100%);
     transition: filter 0.3s ease;
 }
 
@@ -61,7 +62,7 @@ body {
 .signup a,
 .forgot a {
     text-decoration: none;
-    color: #9a55ff;
+    color: #003396;
 }
 
 .signup:hover a,
@@ -74,12 +75,12 @@ body {
 }
 
 .form-check-input {
-    border-color: #9a55ff;
+    border-color: #003396;
 }
 
 .form-check-input:checked {
-    background-color: #9a55ff !important;
-    border-color: #9a55ff !important;
+    background-color: #003396 !important;
+    border-color: #003396 !important;
 }
 
 /* For small screens login and signup */

@@ -37,11 +37,14 @@ body {
 #sidebar {
     width: 70px;
     min-width: 70px;
+    height: 100vh;
     z-index: 1000;
     background-color: #003396;
     display: flex;
     flex-direction: column;
     transition: all .25s ease-in-out;
+    position: sticky;
+    top: 0;
 }
 
 #sidebar.expand {
@@ -72,12 +75,18 @@ body {
 .sidebar-logo-img {
     width: 110px;
     max-height: auto;
+}
+
+.sidebar-logo-img1 {
+    width: 90px;
+    max-height: auto;
     margin-right: 20px;
 }
 
 .sidebar-logo-img2 {
-    width: 70px;
+    width: 50px;
     min-height: auto;
+    margin-top: 10px;
 }
 
 .sidebar-logo {
@@ -93,13 +102,15 @@ body {
 #sidebar:not(.expand) .sidebar-logo,
 #sidebar:not(.expand) a.sidebar-link span,
 #sidebar:not(.expand) .sidebar-logo-img,
+#sidebar:not(.expand) .sidebar-logo-img1,
 #sidebar:not(.expand) .sidebar-logo-img2 {
     display: none;
 }
 
-#sidebar.expand .sidebar-logo,
+#sidebar.expand .logo,
 #sidebar.expand a.sidebar-link span {
     animation: fadeIn .25s ease;
+    -webkit-animation: fadeIn .25s ease;
 }
 
 @keyframes fadeIn {
@@ -361,6 +372,211 @@ a.sidebar-link:hover {
     max-height: 400px;
 }
 
+/* Pertanyaan Interview */
+.question-box {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 380px;
+}
+
+.question-box .q-box {
+    position: relative;
+    background: #e7effd;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.question-box .q-box .box-profil {
+    display: flex;
+    align-items: center;
+}
+
+.question-box .q-box .box-profil .avatar {
+    border-radius: 28%;
+    -webkit-border-radius: 28%;
+    -moz-border-radius: 28%;
+    -ms-border-radius: 28%;
+    -o-border-radius: 28%;
+}
+
+.question-box .q-box .box-profil h2 {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.question-box .q-box .box-profil p {
+    font-size: 16px;
+    margin: 0;
+    margin-top: -7px;
+}
+
+.question-box .q-box .box-profil img {
+    margin-right: 15px;
+}
+
+.question-box .q-box .box-profil a {
+    margin-left: auto;
+}
+
+.question-box .q-box .box-profil .pertanyaan {
+    font-size: 16px;
+    color: #000;
+}
+
+.question-box .q-box button {
+    background: #004be0;
+}
+
+.question-box .q-box button:hover {
+    background: transparent;
+    color: #000;
+    border-color: #000;
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#004be0, #0e4ebe);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* datakandidat */
+.datakandidat {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: auto;
+}
+
+.datakandidat .databox {
+    position: relative;
+    display: grid;
+    padding: 40px 40px;
+    background: #fff;
+    width: 100%;
+    border-radius: 15px;
+    height: 400px;
+    overflow-y: scroll;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.datakandidat .databox td i {
+    font-size: 20px;
+    color: #0a3a8f;
+}
+
+.separator td {
+    border-bottom: 2px solid #ccc;
+    height: 10px;
+}
+
+.datakandidat .databox .profil {
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.datakandidat .databox .profil .avatar {
+    border-radius: 28%;
+    -webkit-border-radius: 28%;
+    -moz-border-radius: 28%;
+    -ms-border-radius: 28%;
+    -o-border-radius: 28%;
+}
+
+.datakandidat .databox td h5 {
+    font-size: 15px;
+}
+
+.datakandidat .databox .user h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.datakandidat .databox .user p {
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.datakandidat .databox .actived {
+    padding-left: 35px;
+}
+
+.datakandidat .databox .no-actived {
+    padding-left: 20px;
+}
+
+.datakandidat .databox .female {
+    padding-left: 0px;
+}
+
+.datakandidat .databox .aktif {
+    border-radius: 13%;
+    background: #1ca800;
+    border: none;
+    -webkit-border-radius: 13%;
+    -moz-border-radius: 13%;
+    -ms-border-radius: 13%;
+    -o-border-radius: 13%;
+}
+
+.datakandidat .databox .tidak-aktif {
+    padding: 5px 5px;
+    border-radius: 13%;
+    background: #e21212;
+    border: none;
+    -webkit-border-radius: 13%;
+    -moz-border-radius: 13%;
+    -ms-border-radius: 13%;
+    -o-border-radius: 13%;
+}
+
+.datakandidat .databox .edit {
+    border-radius: 13%;
+    background: #0e4ebe;
+    color: f8f8f8;
+    border: none;
+    width: 60px;
+}
+
+.datakandidat .databox .edit:hover {
+    background: transparent;
+    color: #0e4ebe;
+    border: 1px solid #0e4ebe;
+}
+
+.datakandidat .databox .delete {
+    border-radius: 13%;
+    background-color: transparent;
+    color: #0e4ebe;
+    border: 1px #004be0 solid;
+    padding: 6px 8px;
+}
+
+.datakandidat .databox .delete:hoveR {
+    background: #004be0;
+    color: #fff;
+}
+
 /* Review */
 .revBox {
     position: relative;
@@ -373,7 +589,7 @@ a.sidebar-link:hover {
     position: relative;
     background: #e7effd;
     width: 100%;
-    padding: 20px;
+    padding: 40px;
     border-radius: 30px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -423,10 +639,39 @@ a.sidebar-link:hover {
     }
 
     #sidebar.expand {
-        min-width: 390px;
+        min-width: 390px;        
     }
 
     .main .navbar h2 {
         display: none;
+    }
+
+    .sidebar-logo-img1 {
+        margin-left: 45px;
+    }
+
+    .navbar .navbar-nav .search button {
+        display: none;
+    }
+
+    .nav-item .nav-icon .notif, 
+    .nav-item .nav-icon .alarm {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .datakandidat .databox {
+        padding: 20px 10px;
+    }
+
+    .datakandidat .databox td:nth-child(2),
+    .datakandidat .databox td:nth-child(3),
+    .datakandidat .databox td:nth-child(4) {
+        display: none;
+    }
+
+    .datakandidat .databox td:nth-child(5),
+    .datakandidat .databox td:nth-child(6) {
+        text-align:left;
     }
 }

@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     width: 100%;
-    min-height: auto
+    min-height: auto;
 }
 
 .rev .revbox {
@@ -22,9 +22,25 @@
     font-size: 18px;
 }
 
+.rev .revbox h6 {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
 .rev .revbox p {
     font-size: 15px;
-    margin-top: -5px;
+}
+
+.rev .revbox .star {
+    margin: -3px 0px 5px 0px;
+}
+
+.rev .revbox .star span {
+    margin-right: 3px;
+}
+
+.rev .revbox .star span.checked {
+    color: orange;
 }
 
 @media (max-width: 768px) {

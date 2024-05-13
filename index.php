@@ -15,6 +15,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
     <link rel="icon" href="img/logo/ta.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,16 +27,18 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                 <button id="toggle-btn" type="button">
                     <i class="lni lni-grid-alt"></i>
                 </button>
-                <div class="sidebar-logo">
-                    <a href="#">Tele Asessment</a>
-                </div>
-            </div>
-            <div class="logo d-flex mt-2">
+                <div class="logo d-flex">
                 <a href="https://maxy.academy/" target="_blank">
-                    <img src="img/logo/maxy_putih.png" alt="" class="sidebar-logo-img">
+                    <img src="img/logo/maxy_putih.png" alt="" class="sidebar-logo-img1">
                 </a>
                 <a href="https://www.ubaya.ac.id/" target="_black">
                     <img src="img/logo/logo-ubaya.png" alt="" class="sidebar-logo-img2">
+                </a>
+                </div>
+            </div>
+            <div class="logo mt-2">
+                <a href="https://maxy.academy/" target="_blank">
+                    <img src="img/logo/ta1.png" alt="" class="sidebar-logo-img">
                 </a>
             </div>
             <ul class="sidebar-nav">
@@ -45,51 +48,25 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                         <span>Dashboard</span>
                     </a>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link has-dropdown collapsed" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                    <a href="page/data-kandidat.php" class="sidebar-link">
                         <i class="lni lni-protection"></i>
                         <span>Data Kandidat</span>
                     </a>
-                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Link 1</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Link 2</a>
-                        </li>
-                    </ul>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link has-dropdown collapsed" data-bs-toggle="collapse" data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
-                        <i class="lni lni-layout"></i>
-                        <span>Data Asessment</span>
-                    </a>
-                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
-                                Two Link
-                            </a> 
-                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 1</a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-popup"></i>
-                        <span>Laporan Asessment</span>
+                    <a href="page/asessment.php" class="sidebar-link">
+                        <i class="lni lni-remove-file"></i>
+                        <span>Asessment</span>
                     </a>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-popup"></i>
-                        <span>Form</span>
+                    <a href="page/laporan-asessment.php" class="sidebar-link">
+                        <i class="lni lni-clipboard"></i>
+                        <span>Laporan</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -99,9 +76,9 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                     </a>
                 </li>
 
-                <div class="three-item">
+                <!-- <div class="three-item"> -->
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
+                        <a href="page/profil.php" class="sidebar-link">
                             <i class="lni lni-user"></i>
                             <span>Profile</span>
                         </a>
@@ -118,7 +95,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                             <span>Keluar</span>
                         </a>
                     </li>
-                </div>
+                <!-- </div> -->
             </ul>
             <!-- <div class="sidebar-footer">
                 <a href="#" class="sidebar-link">
@@ -133,7 +110,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                 <div class="navbar-collapse collapse">
                 <h2 class="fw-bold">Hi, <?php echo $_SESSION['fullname']; ?></h2>
                     <ul class="navbar-nav ms-auto align-items-center d-flex">
-                        <form action="#" class="d-none d-sm-inline-block">
+                        <form action="#" class="search">
                             <div class="input-group input-group-navbar">
                                 <input type="text" class="form-control rounded-2" placeholder="Search..">
                                 <button class="btn rounded-2" type="button">
@@ -242,20 +219,22 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                             <div class="col-12 col-md-4">
                                 <div class="card border-0">
                                     <div class="card-body py-4 d-flex flex-column">
-                                        <h5 class="fw-bold">Skor Interview</h5>
+                                        <h5 class="fw-bold">Tes Kepribadian</h5>
                                         <p class="mb-2 fw-lighter">
                                             Rata-Rata
                                         </p>
                                         <canvas id="ourchart"></canvas>
                                         <div class="time-info d-flex mt-2">
-                                            <span class="aa fw-bold">95</span>
-                                            <span class="bb fw-bold">90</span>
-                                            <span class="cc fw-bold">85</span>
+                                            <span class="aa fw-bold">INFJ</span>
+                                            <span class="bb fw-bold">INFP</span>
+                                            <span class="cc fw-bold">ENFJ</span>
+                                            <span class="cc fw-bold">ENTJ</span>
                                         </div>
                                         <div class="time-info d-flex mt-2">
-                                            <span class="dd fw-bold">80</span>
-                                            <span class="ee fw-bold">75</span>
-                                            <span class="ff fw-bold">70</span>
+                                            <span class="dd fw-bold">ENFP</span>
+                                            <span class="ee fw-bold">INTJ</span>
+                                            <span class="ff fw-bold">INTP</span>
+                                            <span class="ff fw-bold">ENTP</span>
                                         </div>
                                     </div>
                                 </div>
@@ -267,6 +246,93 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                             <div class="box d-flex flex-column">
                                 <h5 class="fw-bold mb-4">Grafik Peserta Perbulan</h5>
                                 <canvas id="lineChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Pertanyaan Interview -->
+                        <div class="question-box mt-4">
+                            <div class="q-box d-flex flex-column">
+                                <h5 class="fw-bold mb-4">Pertanyaan Interview</h5>
+                                <div class="d-flex box-profil mb-4">
+                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <div class="d-flex flex-column">
+                                        <h2>INTERVIEW TEST</h2>
+                                        <P>Analisis sentimen wajah & analisis sentimen suara.</P>
+                                    </div>
+                                    <a href="">
+                                        <span class="pertanyaan">10 Pertanyaan</span>
+                                    </a>
+                                </div>
+                                
+                                <div class="d-flex box-profil mb-4">
+                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <div class="d-flex flex-column">
+                                        <h2>INTEREST AND TALENT TEST</h2>
+                                        <P>Mengetes kemampuan kognitif test.</P>
+                                    </div>
+                                    <a href="">
+                                        <span class="pertanyaan">10 Pertanyaan</span>
+                                    </a>
+                                </div>
+
+                                <div class="d-flex box-profil mb-4">
+                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <div class="d-flex flex-column">
+                                        <h2>COGNITIVE STYLE TEST</h2>
+                                        <P>Mengetes kemampuan kognitif test.</P>
+                                    </div>
+                                    <a href="">
+                                        <span class="pertanyaan">5 Pertanyaan</span>
+                                    </a>
+                                </div>
+
+                                <div class="d-flex box-profil mb-4">
+                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <div class="d-flex flex-column">
+                                        <h2>VALIDATION TEST</h2>
+                                        <P>Test tertulis untuk memvalidasi hasil asesmen interaktif</P>
+                                    </div>
+                                    <a href="">
+                                        <span class="pertanyaan">5 Pertanyaan</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Data Kandidat -->
+                        <div class="datakandidat mt-4">
+                            <div class="databox">
+                                <table>
+                                    <thead class="px-4">
+                                        <tr>
+                                            <td>Pengguna</td>
+                                            <td style="padding-right: 30px;">ID</td>
+                                            <td style="padding-left: 10px;">No Telepon</td>                                            
+                                            <td>Tanggal Lahir</td>
+                                            <td style="padding-right: 30px;">Usia</td>
+                                            <td style="padding-right: 20px;">Gender</td>
+                                            <td style="padding-left: 15px;">Keterangan</td>
+                                            <td>
+                                                <a href="" style="padding-left: 17px">
+                                                    <i class="lni lni-printer"></i>
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="" style="padding-left: 20px">
+                                                    <i class="lni lni-download"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </thead>
+
+                                    <tr class="separator">
+                                        <td colspan="12"></td>
+                                    </tr>
+                                    
+                                    <tbody id="dataContainer">
+                                        <!-- Data akan diisi oleh JavaScript -->
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 
@@ -318,7 +384,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                 <strong>Tele Asessment</strong>
                             </a>
                         </div>
-                        <div class="col-6 text-end text-body-secondary d-none d-md-block">
+                        <!-- <div class="col-6 text-end text-body-secondary d-none d-md-block">
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item">
                                     <a href="#" class="text-body-secondary">Contact</a>
@@ -330,7 +396,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                     <a href="#" class="text-body-secondary">Term & Conditions</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </footer>
@@ -341,6 +407,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
     <script src="js/dashboard.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/my_chart.js"></script>
+    <script src="js/generateData.js"></script>
     
 </body>
 </html>
