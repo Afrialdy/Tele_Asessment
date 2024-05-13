@@ -132,7 +132,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
         <div class="main">
             <nav class="navbar navbar-expand px-4 py-3">
                 <div class="navbar-collapse collapse">
-                <h2 class="fw-bold">Hi, <?php echo $_SESSION['fullname']; ?></h2>
+                <h2 class="fw-bold">Tele Asessment's Blog</h2>
                     <ul class="navbar-nav ms-auto align-items-center d-flex">
                         <form action="#" class="d-none d-sm-inline-block">
                             <div class="input-group input-group-navbar">
@@ -203,65 +203,92 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
 
             <!-- Main Content -->
             <main class="content px-3 py-4">
-                <div class="container-fluid">
-                    <div class="mb-3">
-                        <h3 class="fw-bold">Review</h3>
-                        <div class="rev mt-4">
-                            <div class="revbox d-flex">
-                                <img src="../img/avatar.png" class="avatar img-fluid" alt="avatar"> 
-                                <div class="d-flex flex-column">
-                                    <h5 class="fw-bold">Afrialdy</h5>
-                                    <p>Situs ini menyediakan platform yang luar biasa untuk merekrut talenta AI. Antarmuka yang sederhana dan efisien membuat pencarian menjadi mudah. Saya berhasil merekrut seorang ahli AI yang sangat berkualitas dalam waktu singkat. Pengalaman saya menggunakan situs ini sangat memuaskan, dan saya akan merekomendasikannya kepada rekan-rekan yang mencari kandidat AI yang kompeten</p>
+                <div class="container">
+                    <div class="row">
+                        <!-- First Row -->
+                        <div class="row">
+                            <!-- First Blog Post -->
+                            <div class="col-lg-6">
+                                <div class="rev mt-4">
+                                    <div class="revbox d-flex">
+                                        <div class="blog-post">
+                                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="img-fluid mb-3 rounded" alt="Image" id="blogphoto">
+                                            <h3 class="fw-bold">Revolutionizing Sales with AI: Boosting Efficiency and Personalization</h3>
+                                            <p>In today's competitive market, sales teams are constantly seeking ways to enhance their performance. Enter artificial intelligence (AI), the game-changer. AI-powered tools streamline sales processes, analyze customer data, and predict trends, enabling sales teams to identify leads more effectively and personalize interactions. With AI, businesses can revolutionize their sales strategies, driving higher conversions and revenue growth.</p>
+                                            <a href="#" style="text-align: right;">Click to learn more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Blog Post -->
+                            <div class="col-lg-6">
+                                <div class="rev mt-4">
+                                    <div class="revbox d-flex">
+                                        <div class="blog-post">
+                                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="img-fluid mb-3 rounded" alt="Image" id="blogphoto">
+                                            <h3 class="fw-bold">Transforming Marketing Efforts with AI: Targeting, Personalization, and Optimization</h3>
+                                            <p>In the digital age, marketing has evolved from a one-size-fits-all approach to highly targeted and personalized campaigns. This evolution is fueled by artificial intelligence (AI), which has revolutionized how businesses engage with their audiences. AI-powered marketing tools enable organizations to analyze vast amounts of data, identify trends, and predict customer behavior, leading to more effective targeting and personalized messaging.</p>
+                                            <a href="#" style="text-align: right;">Click to learn more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="rev mt-4">
-                            <div class="revbox d-flex">
-                                <img src="../img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar"> 
-                                <div class="d-flex flex-column">
-                                    <h5 class="fw-bold">Adu du</h5>
-                                    <p>Situs ini menyediakan beragam pilihan bagi rekrutmen AI. Antarmuka yang intuitif dan fitur pencarian yang canggih membuatnya sangat efisien. Saya menemukan kandidat AI yang sesuai dengan kebutuhan perusahaan saya dalam waktu singkat. Saya sangat puas dengan hasilnya dan akan menggunakan situs ini lagi di masa depan</p>
+                        <!-- Second Row -->
+                        <div class="row">
+                            <!-- First Blog Post -->
+                            <div class="col-lg-6">
+                                <div class="rev mt-4">
+                                    <div class="revbox d-flex">
+                                        <div class="blog-post">
+                                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="img-fluid mb-3 rounded" alt="Image" id="blogphoto">
+                                            <h3 class="fw-bold">Revolutionizing Recruiting with AI: Streamlining Processes and Enhancing Candidate Experience</h3>
+                                            <p>The traditional recruiting process is time-consuming, resource-intensive, and often prone to biases. Enter artificial intelligence (AI), offering a revolutionary solution to transform recruiting operations. AI-powered tools streamline the recruitment process, from sourcing candidates to screening resumes and conducting interviews. By automating repetitive tasks and analyzing vast amounts of data, AI enables recruiters to identify top talent more efficiently.</p>                                            </p>
+                                            <a href="#" style="text-align: right;">Click to learn more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Blog Post -->
+                            <div class="col-lg-6">
+                                <div class="rev mt-4">
+                                    <div class="revbox d-flex">
+                                        <div class="blog-post">
+                                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="img-fluid mb-3 rounded" alt="Image" id="blogphoto">
+                                            <h3 class="fw-bold">The Future of Sales: How AI is Reshaping the Sales Landscape</h3>
+                                            <p>The traditional sales process is undergoing a significant transformation thanks to the power of artificial intelligence (AI). AI-driven sales tools are revolutionizing the way businesses engage with customers, driving efficiency, and effectiveness. By harnessing the capabilities of AI, sales teams can gain valuable insights into customer behavior, preferences, and buying patterns, enabling them to deliver personalized experiences at scale.</p>
+                                            <a href="#" style="text-align: right;">Click to learn more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="rev mt-4">
-                            <div class="revbox d-flex">
-                                <img src="../img/profil-review/probe.jpeg" class="avatar img-fluid" alt="avatar"> 
-                                <div class="d-flex flex-column">
-                                    <h5 class="fw-bold">Probe</h5>
-                                    <p>Pengalaman saya menggunakan situs ini sangat memuaskan. Proses pendaftaran yang cepat dan sistem pencocokan yang akurat membantu saya menemukan kandidat AI yang berkualitas. Saya merekomendasikan situs ini kepada semua perusahaan yang mencari talenta AI. Saya berhasil merekrut ahli AI yang sangat berkualitas untuk tim kami. Terima kasih!</p>
+                        <!-- Third Row -->
+                        <div class="row">
+                            <!-- First Blog Post -->
+                            <div class="col-lg-6">
+                                <div class="rev mt-4">
+                                    <div class="revbox d-flex">
+                                        <div class="blog-post">
+                                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="img-fluid mb-3 rounded" alt="Image" id="blogphoto">
+                                            <h3 class="fw-bold"> Enhancing Recruitment Practices with AI: Improving Efficiency and Diversity</h3>
+                                            <p>In today's competitive job market, finding and attracting top talent is more challenging than ever. Fortunately, artificial intelligence (AI) is revolutionizing the recruitment process, offering innovative solutions to enhance efficiency and diversity. AI-powered recruiting tools streamline various stages of the hiring process, from sourcing candidates to assessing qualifications and conducting interviews. By leveraging AI, recruiters can save time, reduce bias, and identify the best candidates for the job.</p>
+                                            <a href="#" style="text-align: right;">Click to learn more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="rev mt-4">
-                            <div class="revbox d-flex">
-                                <img src="../img/profil-review/tok-abah.jpeg" class="avatar img-fluid" alt="avatar"> 
-                                <div class="d-flex flex-column">
-                                    <h5 class="fw-bold">Tok Abah</h5>
-                                    <p>Situs web rekrutmen AI ini luar biasa. Fitur pencarian yang canggih dan database yang kaya membuatnya menjadi sumber daya yang berharga. Saya berhasil merekrut ahli AI yang sangat berkualitas untuk tim kami. Terima kasih atas layanan yang luar biasa!</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="rev mt-4">
-                            <div class="revbox d-flex">
-                                <img src="../img/profil-review/upin.jpeg" class="avatar img-fluid" alt="avatar"> 
-                                <div class="d-flex flex-column">
-                                    <h5 class="fw-bold">Upin</h5>
-                                    <p>Situs web ini benar-benar membantu dalam mencari talenta AI yang tepat. Proses pendaftaran yang mudah dan informasi yang komprehensif tentang setiap kandidat membuatnya menjadi pilihan utama saya dalam rekrutmen AI. Saya sangat puas dengan hasilnya dan akan merekomendasikannya kepada rekan-rekan saya.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="rev mt-4">
-                            <div class="revbox d-flex">
-                                <img src="../img/profil-review/cikgu.jpg" class="avatar img-fluid" alt="avatar"> 
-                                <div class="d-flex flex-column">
-                                    <h5 class="fw-bold">Cikgu Besar</h5>
-                                    <p>Saya sangat terkesan dengan situs rekrutmen AI ini. Antarmuka yang ramah pengguna dan fitur pencarian yang canggih membuatnya sangat mudah digunakan. Saya berhasil merekrut ahli AI yang berkualitas untuk tim kami. Sangat merekomendasikan! Terima kasih atas pengalaman yang luar biasa!</p>
+                            <!-- Second Blog Post -->
+                            <div class="col-lg-6">
+                                <div class="rev mt-4">
+                                    <div class="revbox d-flex">
+                                        <div class="blog-post">
+                                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="img-fluid mb-3 rounded" alt="Image" id="blogphoto">
+                                            <h3 class="fw-bold">Mengungkap Potensi Tersembunyi: Tele-Asesmen Psikologi Berbasis AI</h3>
+                                            <p>Dalam era digital ini, teknologi semakin memainkan peran penting dalam mengungkap potensi individu. Melalui tele-asesmen psikologi berbasis kecerdasan buatan (AI), individu dapat menjelajahi bakat, minat, dan potensi mereka dengan lebih dalam dan akurat. Tele-asesmen ini memanfaatkan algoritma AI untuk menganalisis berbagai faktor psikologis dan memberikan wawasan yang berharga bagi individu untuk mengembangkan diri mereka secara lebih efektif.</p>
+                                            <a href="#" style="text-align: right;">Click to learn more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
