@@ -185,199 +185,305 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                         <h4 class="fw-bold">Hasil Tes Peserta</h4>
                         <input type="date">
                     </div>
+                    <div class="cover mt-3">
+                        <img src="../img/interview test.png" alt="" class="img-fluid">
+                        <h5 class="mt-2">INTERVIEW TEST</h5>
+                        <a href="">
+                            <span>See all</span>
+                        </a>
+                    </div>
                     <div class="row">
+
                         <div class="col-md-6">
                             <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
                                     </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
+                                    <img src="../img/interview test.png" alt="" class="img-cover">                                  
+                                </div>                                
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
                                     </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
+                                    <img src="../img/interview test.png" alt="" class="img-cover">                                  
+                                </div>                                
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
                                     </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
+                                    <img src="../img/interview test.png" alt="" class="img-cover">                                  
+                                </div>                                
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
                                     </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="asess">
-                                <div class="asessbox d-flex flex-column mt-4">
-                                    <h1>Rafli Diptana</h1>
-                                    <div class="d-flex items">
-                                        <h3>Test Interview :</h3>
-                                        <h3>01/05/2024,</h3>
-                                        <h3>20 Pertanyaan</h3>                                
-                                    </div>
-                                    <a href="">
-                                        <button type="button" class="btn btn-primary">Hasil Tes</button>
-                                    </a>
-                                </div>
+                                    <img src="../img/interview test.png" alt="" class="img-cover">                                  
+                                </div>                                
                             </div>
                         </div>
                         
+                        <div class="cover mt-4">
+                            <img src="../img/interest and talent.png" alt="" class="img-fluid">
+                            <h5 class="mt-2">INTEREST AND TALENT TEST</h5>
+                            <a href="">
+                                <span>See all</span>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/interest and talent.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/interest and talent.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/interest and talent.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/interest and talent.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="cover mt-4">
+                            <img src="../img/cognitive style.png" alt="" class="img-fluid">
+                            <h5 class="mt-2">COGNITIVE STYLE TEST</h5>
+                            <a href="">
+                                <span>See all</span>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/cognitive style.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/cognitive style.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/cognitive style.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/cognitive style.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+                        
+                        <div class="cover mt-4">
+                            <img src="../img/validation test.png" alt="" class="img-fluid">
+                            <h5 class="mt-2">VALIDATION TEST</h5>
+                            <a href="">
+                                <span>See all</span>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/validation test.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="asess">
+                                <div class="asessbox d-flex mt-4">
+                                    <div class="">
+                                        <h1>Rafli Diptana</h1>
+                                        <div class="d-flex items">
+                                            <h3>Test Interview :</h3>
+                                            <h3>01/05/2024,</h3>
+                                            <h3>20 Pertanyaan</h3>                                
+                                        </div>                                    
+                                        <a href="">
+                                            <button type="button" class="btn btn-primary">Hasil Tes</button>
+                                        </a>
+                                    </div>
+                                    <img src="../img/validation test.png" alt="" class="img-cover">                                  
+                                </div>                                
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </main>
