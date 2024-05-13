@@ -394,27 +394,22 @@ a.sidebar-link:hover {
     align-items: center;
 }
 
-.question-box .q-box .box-profil .avatar {
-    border-radius: 28%;
-    -webkit-border-radius: 28%;
-    -moz-border-radius: 28%;
-    -ms-border-radius: 28%;
-    -o-border-radius: 28%;
-}
-
 .question-box .q-box .box-profil h2 {
     font-size: 18px;
     font-weight: 550;
+    padding-top: 5px;
 }
 
 .question-box .q-box .box-profil p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
-    margin-top: -7px;
+    margin-top: -10px;
 }
 
 .question-box .q-box .box-profil img {
     margin-right: 15px;
+    width: 50px;
+    height: auto;
 }
 
 .question-box .q-box .box-profil a {
@@ -426,14 +421,8 @@ a.sidebar-link:hover {
     color: #000;
 }
 
-.question-box .q-box button {
-    background: #004be0;
-}
-
-.question-box .q-box button:hover {
-    background: transparent;
-    color: #000;
-    border-color: #000;
+.question-box .q-box .box-profil .pertanyaan:hover {
+    color: #0e4ebe;
 }
 
 
@@ -480,8 +469,9 @@ a.sidebar-link:hover {
 }
 
 .datakandidat .databox td i {
-    font-size: 20px;
+    font-size: 24px;
     color: #0a3a8f;
+    font-weight: 800;
 }
 
 .separator td {
@@ -572,7 +562,7 @@ a.sidebar-link:hover {
     padding: 6px 8px;
 }
 
-.datakandidat .databox .delete:hoveR {
+.datakandidat .databox .delete:hover {
     background: #004be0;
     color: #fff;
 }
@@ -673,5 +663,23 @@ a.sidebar-link:hover {
     .datakandidat .databox td:nth-child(5),
     .datakandidat .databox td:nth-child(6) {
         text-align:left;
+    }
+
+    .question-box .q-box h5 {
+        text-align: center;
+    }
+
+    .question-box .q-box .box-profil p {
+        display: none;
+    }
+
+    .question-box .q-box .box-profil {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .question-box .q-box .box-profil a {
+        margin: auto;
     }
 }

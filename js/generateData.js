@@ -78,7 +78,7 @@ function generateData() {
                             <p>${generateEmail(name)}</p>
                         </div>
                     </td>
-                    <td style="padding-left: 6px;">${id}</td>
+                    <td>${id}</td>
                     <td>${generatePhoneNumber()}</td>
                     <td style="padding-left: 10px;">${generateBirthDate()}</td>
                     <td style="padding-left: 10px;">${generateAge()}</td>

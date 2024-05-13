@@ -28,8 +28,9 @@
 }
 
 .data-kandidat .data-box td i {
-    font-size: 20px;
+    font-size: 24px;
     color: #0a3a8f;
+    font-weight: 800;
 }
 
 .separator td {

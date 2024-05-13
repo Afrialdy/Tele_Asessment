@@ -242,7 +242,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                         </div>
 
                         <!-- Grafik Peserta -->
-                        <div class="graphBox mt-4">
+                        <div class="graphBox mt-2">
                             <div class="box d-flex flex-column">
                                 <h5 class="fw-bold mb-4">Grafik Peserta Perbulan</h5>
                                 <canvas id="lineChart"></canvas>
@@ -254,7 +254,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                             <div class="q-box d-flex flex-column">
                                 <h5 class="fw-bold mb-4">Pertanyaan Interview</h5>
                                 <div class="d-flex box-profil mb-4">
-                                    <img src="img/interview test.png" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <img src="img/interview test.png" class="img-fluid" alt="">                                                                      
                                     <div class="d-flex flex-column">
                                         <h2>INTERVIEW TEST</h2>
                                         <P>Analisis sentimen wajah & analisis sentimen suara.</P>
@@ -265,9 +265,9 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                 </div>
                                 
                                 <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <img src="img/interest and talent.png" class="img-fluid" alt="">                                                                       
                                     <div class="d-flex flex-column">
-                                        <h2>INTEREST AND TALENT TEST</h2>
+                                        <h2>INTEREST TALENT TEST</h2>
                                         <P>Mengetes kemampuan kognitif test.</P>
                                     </div>
                                     <a href="">
@@ -276,7 +276,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                 </div>
 
                                 <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <img src="img//cognitive style.png" class="img-fluid" alt="">                                                                       
                                     <div class="d-flex flex-column">
                                         <h2>COGNITIVE STYLE TEST</h2>
                                         <P>Mengetes kemampuan kognitif test.</P>
@@ -287,7 +287,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                 </div>
 
                                 <div class="d-flex box-profil mb-4">
-                                    <img src="img/profil-review/adudu.jpeg" class="avatar img-fluid" alt="avatar">                                                                       
+                                    <img src="img/validation test.png" class="img-fluid" alt="">                                                                       
                                     <div class="d-flex flex-column">
                                         <h2>VALIDATION TEST</h2>
                                         <P>Test tertulis untuk memvalidasi hasil asesmen interaktif</P>
