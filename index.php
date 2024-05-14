@@ -70,7 +70,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="page/blog.php" class="sidebar-link">
+                    <a href="page/blogcreate.html" class="sidebar-link">
                         <i class="lni lni-popup"></i>
                         <span>Blog</span>
                     </a>
