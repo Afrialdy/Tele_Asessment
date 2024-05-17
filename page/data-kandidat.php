@@ -210,7 +210,7 @@ $fullname = isset($_SESSION['fullname']) ? $_SESSION['fullname'] : '';
                                     <tr class="separator">
                                         <td colspan="12"></td>
                                     </tr>
-                                    
+
                                     <tbody id="dataContainer">
                                         <!-- Data akan diisi oleh JavaScript -->
                                     </tbody>
